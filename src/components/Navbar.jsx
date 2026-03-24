@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import logo from '../assets/images/logo.png';
 import { FaGithub } from 'react-icons/fa';
 
@@ -33,9 +33,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn font-semibold text-base items-center bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white">
+                <Link to="https://github.com/AlfredGomes23/appBajar" target="_blank" className="btn font-semibold text-base items-center bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white">
                     <FaGithub  className='text-xl'/>
-                    Contribute</a>
+                    Contribute</Link>
             </div>
         </nav>
     );
