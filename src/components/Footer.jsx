@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
             </section>
             <section className="footer sm:footer-horizontal footer-center text-base-content p-4">
-                <aside classname='flex justify-center items-center'>
+                <aside className='flex justify-center items-center'>
                     <p>Copyright © {new Date().getFullYear()} - All right reserved by <span className="text-xl font-bold text-[#632EE3]">AppBajar</span></p>
                 </aside>
             </section>

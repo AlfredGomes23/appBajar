@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "image": "https://logo.clearbit.com/dji.com",
+    "title": "DJI Fly",
+    "companyName": "DJI",
+    "description": "The DJI Fly app interface is designed to be simplified and ultra-intuitive, allowing you to control your consumer drone, plan your flight, and capture stunning aerial footage.",
+    "size": 185,
+    "reviews": 1250000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 62500 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 87500 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 825000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://logo.clearbit.com/irobot.com",
+    "title": "iRobot Home",
+    "companyName": "iRobot",
+    "description": "Connect to map, clean, and monitor your home with the Roomba robot vacuum. Features personalized cleaning suggestions and smart home integration.",
+    "size": 142,
+    "reviews": 850000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 59500 },
+      { "name": "2 star", "count": 34000 },
+      { "name": "3 star", "count": 51000 },
+      { "name": "4 star", "count": 170000 },
+      { "name": "5 star", "count": 535500 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://logo.clearbit.com/roborock.com",
+    "title": "Roborock",
+    "companyName": "Roborock",
+    "description": "Control your Roborock sweeping robot from anywhere. Set No-Go zones, view cleaning paths in real-time, and customize suction power.",
+    "size": 95,
+    "reviews": 420000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 16800 },
+      { "name": "2 star", "count": 8400 },
+      { "name": "3 star", "count": 21000 },
+      { "name": "4 star", "count": 71400 },
+      { "name": "5 star", "count": 302400 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://logo.clearbit.com/arduino.cc",
+    "title": "Arduino Science Journal",
+    "companyName": "Arduino",
+    "description": "Transform your device into a pocket-size science tool. Use your phone's sensors to measure light, sound, motion, and connect to external Arduino boards.",
+    "size": 68,
+    "reviews": 35000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 3150 },
+      { "name": "2 star", "count": 1750 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 8750 },
+      { "name": "5 star", "count": 17850 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://logo.clearbit.com/sphero.com",
+    "title": "Sphero Edu",
+    "companyName": "Sphero",
+    "description": "The Sphero Edu app uses app-enabled robots to foster creativity through discovery and play. Code your robots using Draw, Blocks, or Text.",
+    "size": 110,
+    "reviews": 48000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 1440 },
+      { "name": "3 star", "count": 3840 },
+      { "name": "4 star", "count": 9600 },
+      { "name": "5 star", "count": 30720 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://logo.clearbit.com/lego.com",
+    "title": "LEGO® MINDSTORMS® Robot Inventor",
+    "companyName": "LEGO System A/S",
+    "description": "Build, code, and play with your robot creations. Features a drag-and-drop coding interface based on Scratch and Python support.",
+    "size": 250,
+    "reviews": 115000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 11500 },
+      { "name": "2 star", "count": 8050 },
+      { "name": "3 star", "count": 13800 },
+      { "name": "4 star", "count": 28750 },
+      { "name": "5 star", "count": 52900 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://logo.clearbit.com/makeblock.com",
+    "title": "Makeblock - Play Stem Robots",
+    "companyName": "Makeblock",
+    "description": "Easily connect to your mBot and control it. Learn graphical programming and bring your robotics projects to life with step-by-step guides.",
+    "size": 85,
+    "reviews": 22000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 2640 },
+      { "name": "2 star", "count": 1980 },
+      { "name": "3 star", "count": 3300 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 8580 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://logo.clearbit.com/ecovacs.com",
+    "title": "ECOVACS HOME",
+    "companyName": "ECOVACS Robotics",
+    "description": "The ultimate command center for your DEEBOT. Schedule cleanings, switch cleaning modes, and view 3D maps of your house environment.",
+    "size": 130,
+    "reviews": 290000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 14500 },
+      { "name": "2 star", "count": 8700 },
+      { "name": "3 star", "count": 20300 },
+      { "name": "4 star", "count": 58000 },
+      { "name": "5 star", "count": 188500 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://logo.clearbit.com/blynk.io",
+    "title": "Blynk: IoT, Domotics & Control",
+    "companyName": "Blynk",
+    "description": "Build interfaces for your IoT and robotics projects. Connect Arduino, ESP8266, Raspberry Pi and control them remotely over the internet.",
+    "size": 42,
+    "reviews": 110000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 4400 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 5500 },
+      { "name": "4 star", "count": 18700 },
+      { "name": "5 star", "count": 79200 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://logo.clearbit.com/vexrobotics.com",
+    "title": "VEXcode V5",
+    "companyName": "VEX Robotics",
+    "description": "The official coding environment for VEX V5. Code your competition robots using blocks, Python, or C++ directly from your tablet.",
+    "size": 175,
+    "reviews": 8500,
+    "ratingAvg": 4.3,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 595 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 765 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://logo.clearbit.com/qgroundcontrol.com",
+    "title": "QGroundControl",
+    "companyName": "Dronecode Project",
+    "description": "Provides full flight control and mission planning for any MAVLink enabled drone, including PX4 and ArduPilot powered vehicles.",
+    "size": 115,
+    "reviews": 12000,
+    "ratingAvg": 4.1,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 840 },
+      { "name": "3 star", "count": 1440 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5520 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://logo.clearbit.com/sharkclean.com",
+    "title": "SharkClean",
+    "companyName": "SharkNinja",
+    "description": "Control your Shark robot vacuum. Schedule cleanings, review reports, and map your home for highly efficient and automated floor care.",
+    "size": 105,
+    "reviews": 175000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 10500 },
+      { "name": "2 star", "count": 5250 },
+      { "name": "3 star", "count": 12250 },
+      { "name": "4 star", "count": 35000 },
+      { "name": "5 star", "count": 112000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://logo.clearbit.com/eufylife.com",
+    "title": "eufy Clean",
+    "companyName": "Anker",
+    "description": "Smart home app to connect your eufy RoboVac. Features remote control, cleaning schedules, and real-time maintenance alerts.",
+    "size": 88,
+    "reviews": 98000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 2940 },
+      { "name": "2 star", "count": 1960 },
+      { "name": "3 star", "count": 4900 },
+      { "name": "4 star", "count": 14700 },
+      { "name": "5 star", "count": 73500 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://logo.clearbit.com/neatorobotics.com",
+    "title": "Neato Robotics",
+    "companyName": "Neato",
+    "description": "Manage your Neato intelligent robot vacuum. Create virtual boundaries, trigger zone cleaning, and see exact coverage maps.",
+    "size": 76,
+    "reviews": 65000,
+    "ratingAvg": 3.9,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 7800 },
+      { "name": "2 star", "count": 5200 },
+      { "name": "3 star", "count": 9100 },
+      { "name": "4 star", "count": 16250 },
+      { "name": "5 star", "count": 26650 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://logo.clearbit.com/parrot.com",
+    "title": "FreeFlight 6",
+    "companyName": "Parrot",
+    "description": "The official piloting app for Parrot ANAFI drones. Boasts a modernized interface, precise flight planning, and advanced camera controls.",
+    "size": 162,
+    "reviews": 45000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 4050 },
+      { "name": "2 star", "count": 2250 },
+      { "name": "3 star", "count": 5400 },
+      { "name": "4 star", "count": 11250 },
+      { "name": "5 star", "count": 22050 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://logo.clearbit.com/autelrobotics.com",
+    "title": "Autel Explorer",
+    "companyName": "Autel Robotics",
+    "description": "Built for the EVO series drones, offering an intuitive piloting experience, dynamic tracking, and high-resolution imaging controls.",
+    "size": 190,
+    "reviews": 18000,
+    "ratingAvg": 4.1,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 1260 },
+      { "name": "3 star", "count": 2160 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 8280 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://logo.clearbit.com/skydio.com",
+    "title": "Skydio 2",
+    "companyName": "Skydio",
+    "description": "Fly the world's most advanced autonomous drone. Unleash cinematic skills with automated flight paths and advanced obstacle avoidance.",
+    "size": 145,
+    "reviews": 8500,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 425 },
+      { "name": "2 star", "count": 255 },
+      { "name": "3 star", "count": 595 },
+      { "name": "4 star", "count": 1700 },
+      { "name": "5 star", "count": 5525 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://logo.clearbit.com/ubtrobot.com",
+    "title": "UBTECH JIMU Robot",
+    "companyName": "UBTECH",
+    "description": "An interactive robotic building block system. Features 3D step-by-step building instructions and Blockly coding to program your robots.",
+    "size": 210,
+    "reviews": 14000,
+    "ratingAvg": 4.3,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 980 },
+      { "name": "2 star", "count": 560 },
+      { "name": "3 star", "count": 1260 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 8400 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://logo.clearbit.com/yaskawa.com",
+    "title": "Yaskawa Manuals",
+    "companyName": "Yaskawa",
+    "description": "Access technical manuals, fault code lookups, and maintenance guides for Yaskawa industrial robots and Motoman systems on the go.",
+    "size": 35,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 42 },
+      { "name": "2 star", "count": 21 },
+      { "name": "3 star", "count": 84 },
+      { "name": "4 star", "count": 315 },
+      { "name": "5 star", "count": 1638 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://logo.clearbit.com/universal-robots.com",
+    "title": "UR AR Viewer",
+    "companyName": "Universal Robots",
+    "description": "Place a virtual cobot (collaborative robot) in your workspace using Augmented Reality to visualize reach, footprint, and applications.",
+    "size": 150,
+    "reviews": 1500,
+    "ratingAvg": 4.0,
+    "downloads": 10000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 105 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 375 },
+      { "name": "5 star", "count": 690 }
+    ]
+  },
+  {
+    "id": 21,
+    "image": "https://logo.clearbit.com/bostondynamics.com",
+    "title": "Spot Controller",
+    "companyName": "Boston Dynamics",
+    "description": "The official enterprise application for piloting Spot, the agile mobile robot. Execute autonomous missions and monitor remote payloads.",
+    "size": 80,
+    "reviews": 850,
+    "ratingAvg": 4.7,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "1 star", "count": 17 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 34 },
+      { "name": "4 star", "count": 127 },
+      { "name": "5 star", "count": 664 }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "https://logo.clearbit.com/kuka.com",
+    "title": "KUKA.sim Viewer",
+    "companyName": "KUKA",
+    "description": "Review your industrial robotic simulation cells in 3D directly on your mobile device. Great for sales presentations and design reviews.",
+    "size": 120,
+    "reviews": 3200,
+    "ratingAvg": 4.2,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 288 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 384 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1568 }
+    ]
+  },
+  {
+    "id": 23,
+    "image": "https://logo.clearbit.com/abb.com",
+    "title": "ABB RobotStudio AR Viewer",
+    "companyName": "ABB",
+    "description": "Discover where an ABB robot fits on your factory floor. Project realistic 3D models of robotic arms into your physical environment.",
+    "size": 95,
+    "reviews": 4100,
+    "ratingAvg": 4.4,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 205 },
+      { "name": "2 star", "count": 123 },
+      { "name": "3 star", "count": 328 },
+      { "name": "4 star", "count": 820 },
+      { "name": "5 star", "count": 2624 }
+    ]
+  },
+  {
+    "id": 24,
+    "image": "https://logo.clearbit.com/fanuc.com",
+    "title": "FANUC ZDT",
+    "companyName": "FANUC",
+    "description": "Zero Down Time (ZDT) keeps you connected to your FANUC robots. Get analytics, maintenance reminders, and diagnostic data on your fleet.",
+    "size": 45,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 10000,
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 77 },
+      { "name": "4 star", "count": 220 },
+      { "name": "5 star", "count": 726 }
+    ]
+  },
+  {
+    "id": 25,
+    "image": "https://logo.clearbit.com/ros.org",
+    "title": "ROS Control",
+    "companyName": "Open Robotics",
+    "description": "An open-source interface to monitor and send commands to your Robot Operating System (ROS) nodes, view topics, and map telemetry data.",
+    "size": 22,
+    "reviews": 6500,
+    "ratingAvg": 4.6,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 325 },
+      { "name": "4 star", "count": 1105 },
+      { "name": "5 star", "count": 4680 }
+    ]
+  }
+]
