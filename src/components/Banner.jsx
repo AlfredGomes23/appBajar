@@ -11,7 +11,7 @@ import { Link } from 'react-router';
 
 const Banner = () => {
     return (
-        <div className='py-10'>
+        <div className='pt-10'>
             <div className='w-2/3 mx-auto text-center space-y-4'>
                 <h2 className='text-6xl text-[#001931] font-bold text-center'>We Build
                     <br /><span className='bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Robotics</span> Apps</h2>

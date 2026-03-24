@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className=" bg-white">
+        <footer className=" bg-white pt-6">
             <section className="flex flex-col md:flex-row justify-around gap-10">
                 <div>
                     <a className="text-xl font-bold flex items-center justify-center">
