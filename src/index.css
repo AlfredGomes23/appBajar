@@ -19,5 +19,20 @@
     color: transparent;
     text-decoration: underline;
     font-weight: 700;
-}
+};
+
+.tooltip-gradient {
+    position: relative;
+};
+
+.tooltip-gradient:before {
+    background: linear-gradient(to bottom right, #632EE3, #9F62F2) !important;
+    color: white !important;
+    font-weight: 800 !important;
+    padding: 8px 12px !important;
+};
+
+.tooltip-gradient:after {
+    --tooltip-color: #632EE3;
+};
 

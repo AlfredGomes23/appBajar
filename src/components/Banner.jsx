@@ -13,17 +13,17 @@ const Banner = () => {
     return (
         <div className='pt-10'>
             <div className='w-2/3 mx-auto text-center space-y-4'>
-                <h2 className='text-6xl text-[#001931] font-bold text-center'>We Build
+                <h2 className='text-4xl md:text-6xl text-[#001931] font-bold text-center'>We Build
                     <br /><span className='bg-linear-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Robotics</span> Apps</h2>
 
-                <p className='text-md text-[#627382]'>At AppBajar, we craft innovative apps designed to make creative life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into Real-life Device that truly make an impact.</p>
+                <p className='text-sm md:text-md text-[#627382]'>At AppBajar, we craft innovative apps designed to make creative life simpler, smarter, and more exciting. <br /> Our goal is to turn your ideas into Real-life Device that truly make an impact.</p>
                 <div className='text-[20px] font-semibold flex gap-4 justify-center'>
                     <Link to="https://play.google.com/store/games?hl=en"  target="_blank"  className='btn '> <img src={playIcon} alt="" className='w-6' />Google Play</Link>
                     <Link to="https://www.apple.com/app-store/"  target="_blank"  className='btn '> <img src={AppStoreIcon} alt="" className='w-6' />App Store</Link>
                 </div>
             </div>
             <div>
-                <img src={hero} alt="hero" className='w-2/3 md:w-1/2 mx-auto pt-10' />
+                <img src={hero} alt="hero" className=' md:w-3/4 lg:w-1/2 px-5 md:px-0 mx-auto mt-5 md:pt-10' />
             </div>
         </div>
     );

@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import Banner from "../components/Banner";
 import HomeStats from "../components/HomeStats";
 import TrendingApps from "../components/TrendingApps";
+import Loading from "../components/Loading";
 
 const allAppsPromise = fetch('/Data.json').then(res=>res.json());
 
@@ -10,7 +11,7 @@ const Home = () => {
         <div>
             <Banner/>
             <HomeStats/>
-            <Suspense fallback={<p className="loading loading-bars loading-xl text-[#632ee3] text-center mx-auto"></p>}>
+            <Suspense fallback={<Loading/>}>
                 <TrendingApps allAppsPromise={allAppsPromise}/>
             </Suspense>
         </div>

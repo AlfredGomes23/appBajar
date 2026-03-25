@@ -2,7 +2,7 @@ import React from 'react';
 
 const Installation = () => {
     return (
-        <div>
+        <div className=''>
             Installation
         </div>
     );

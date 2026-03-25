@@ -8,14 +8,13 @@ const TrendingApps = ({ allAppsPromise }) => {
     console.log(allAppsData);
     return (
         <div className="text-center pt-20 pb-10">
-            <h3 className="text-5xl text-[#001931] font-bold">Trending Apps</h3>
+            <h3 className="text-4xl md:text-5xl text-[#001931] font-bold">Trending Apps</h3>
             <p className="text-base text-[#627382] mt-4 mb-8">Explore All Trending Apps on the Market developed by us</p>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 space-y-4 mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-auto">
                 {
                     allAppsData.sort((a, b) =>
-                        (a.ratings["4 star"] + a.ratings["4 star"]) -
-                        (b.ratings["4 star"] + b.ratings["4 star"])).slice(0,8).map(app => 
+                        (b.ratingAvg * b.reviews) - (a.ratingAvg * a.reviews)).slice(0,8).map(app => 
                             <TrendingCard key={app.id} app={app}/>
                         )
                 }

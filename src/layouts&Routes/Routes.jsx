@@ -5,6 +5,10 @@ import Apps from "../pages/Apps";
 import Installation from "../pages/Installation";
 import NotFound from "../pages/NotFound";
 import AppDetails from "../pages/AppDetails";
+import Loading from "../components/Loading";
+import { Suspense } from "react";
+
+const allAppsPromise = fetch('/Data.json').then(res => res.json());
 
 const Routes = createBrowserRouter([
     {
@@ -23,7 +27,10 @@ const Routes = createBrowserRouter([
             },
             {
                 path: 'app/:id',
-                Component: AppDetails
+                element:
+                <Suspense fallback={<Loading/>}>
+                        <AppDetails allAppsPromise={allAppsPromise}/>
+                </Suspense>
             }
         ]
     }
