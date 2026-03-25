@@ -23,9 +23,9 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a to='/' className="btn btn-ghost text-xl flex justify-center items-center mx-auto md:mx-0">
+                <Link to='/' className="btn btn-ghost text-xl flex justify-center items-center mx-auto md:mx-0">
                     <img src={logo} alt="logo" className='w-10' />
-                    AppBajar</a>
+                    AppBajar</Link>
             </div>
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal px-1">

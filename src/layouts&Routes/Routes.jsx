@@ -12,14 +12,17 @@ const allAppsPromise = fetch('/Data.json').then(res => res.json());
 
 const Routes = createBrowserRouter([
     {
-        path:'/',
+        path: '/',
         Component: MainLayout,
         errorElement: NotFound,
-        children:[
-            {index: true, Component: Home},
+        children: [
+            { index: true, Component: Home },
             {
                 path: 'apps',
-                Component: Apps
+
+                element: <Suspense fallback={<Loading />}>
+                    <Apps allAppsPromise={allAppsPromise} />
+                </Suspense>
             },
             {
                 path: 'installation',
@@ -27,9 +30,8 @@ const Routes = createBrowserRouter([
             },
             {
                 path: 'app/:id',
-                element:
-                <Suspense fallback={<Loading/>}>
-                        <AppDetails allAppsPromise={allAppsPromise}/>
+                element: <Suspense fallback={<Loading />}>
+                    <AppDetails allAppsPromise={allAppsPromise} />
                 </Suspense>
             }
         ]

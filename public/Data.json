@@ -1,6 +1,114 @@
 [
   {
-    "image": "https://ui-avatars.com/api/?name=DJI+Fly&background=random&color=fff&size=256",
+    "image": "https://creative-hut.com/cdn/shop/files/vendor-sphero.jpg?v=3793670972567055412",
+    "title": "Sphero Edu",
+    "companyName": "Sphero Inc.",
+    "id": 1,
+    "description": "Program your Sphero robots, learn coding, and join the global robotics community.",
+    "size": 145,
+    "reviews": 15000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 11000 }
+    ]
+  },
+  {
+    "image": "https://www.talkandroid.com/wp-content/uploads/2015/11/lego_mindstorms_programmer_app_icon.png",
+    "title": "LEGO® MINDSTORMS®",
+    "companyName": "LEGO System A/S",
+    "id": 2,
+    "description": "Build, code, and play with your MINDSTORMS Robot Inventor kit.",
+    "size": 210,
+    "reviews": 50000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/ZWqwZliyYxtUVlSP0fiSp2vHquwvppdE_3GMJESxDcA0gCxrq5P5i7NIwsx9rBPJnP63",
+    "title": "ArduinoDroid",
+    "companyName": "Anton Smirnov",
+    "id": 3,
+    "description": "Write and upload code to your Arduino boards directly from your mobile device.",
+    "size": 85,
+    "reviews": 12000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/_1MJad1drtdpPCy1ZLhw00JQuVPO11EDKPXSgS4lT3O49La29t_Jik4OTzZB-kKkyf0",
+    "title": "Makeblock",
+    "companyName": "Makeblock Co., Ltd.",
+    "id": 4,
+    "description": "Control your Makeblock robots and learn graphical programming.",
+    "size": 120,
+    "reviews": 8000,
+    "ratingAvg": 4.0,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmrt1Xq0v4tBLpqwX7TeNq3KCZJJ27Wi9ipQ&s",
+    "title": "VEXcode V5",
+    "companyName": "VEX Robotics",
+    "id": 5,
+    "description": "The block and text-based coding environment for VEX V5 robots.",
+    "size": 160,
+    "reviews": 3500,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5H1sWXUnNnSdNe4xABFTFpgaodLgpSnHbpg&s",
+    "title": "Blynk IoT",
+    "companyName": "Blynk Inc.",
+    "id": 6,
+    "description": "Control Arduino, ESP8266, ESP32, Raspberry Pi, and other microcontrollers over the internet.",
+    "size": 45,
+    "reviews": 25000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://www-cdn.djiits.com/cms_uploads/download/app/icon/106/5f4c149c04deacd20ba138a26084b814.png",
     "title": "DJI Fly",
     "companyName": "DJI",
     "id": 7,
@@ -18,7 +126,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=iRobot+Home&background=random&color=fff&size=256",
+    "image": "https://play-lh.googleusercontent.com/4TXEBlA1wV-BVHC2jbRCPeBvSRjkC2SsQ4KJU-N0LU1A45G5B1kT337qoMvNQ447VOEb",
     "title": "iRobot Home",
     "companyName": "iRobot",
     "id": 8,
@@ -36,7 +144,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=QGround+Control&background=random&color=fff&size=256",
+    "image": "https://repository-images.githubusercontent.com/2567844/f2f160c5-f285-49cf-b245-348c6e7975c2",
     "title": "QGroundControl",
     "companyName": "Dronecode Foundation",
     "id": 9,
@@ -54,7 +162,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=RoboDK&background=random&color=fff&size=256",
+    "image": "https://yt3.googleusercontent.com/ytc/AIdro_kQd8zu1sYgNkLrRoDdeyame_7EQWH6bAABS06ufQSSHME=s900-c-k-c0x00ffffff-no-rj",
     "title": "RoboDK",
     "companyName": "RoboDK",
     "id": 10,
@@ -72,7 +180,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=CoderZ&background=random&color=fff&size=256",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpghFU-mThyDSLsIcxbn2N5hop4lD_6_3sA&s",
     "title": "CoderZ",
     "companyName": "Intelitek",
     "id": 11,
@@ -90,7 +198,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=mBlock&background=random&color=fff&size=256",
+    "image": "https://play-lh.googleusercontent.com/SIp5k6IGJL_ZS9qTuzy3w_frau7T_v6uqVwdxIzmnlhs7z13pgSg-ttvQG3XhtdVyA=w240-h480-rw",
     "title": "mBlock",
     "companyName": "Makeblock Co., Ltd.",
     "id": 12,
@@ -108,7 +216,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Roboflow+Universe&background=random&color=fff&size=256",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTTtGcu3CULhh1-vzeEZfq23gCXTVStR1bsg&s",
     "title": "Roboflow Universe",
     "companyName": "Roboflow",
     "id": 13,
@@ -126,7 +234,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=ROS+Control&background=random&color=fff&size=256",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT22g8bDLVoBoNQJtcgCy1Pzm3ayEeIWQ0PKA&s",
     "title": "ROS Control",
     "companyName": "Open Robotics",
     "id": 14,
@@ -144,7 +252,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Wonder+Dash&background=random&color=fff&size=256",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ33LoZt087QhqEVapyyutLC0FsEA0Pp4uJeQ&s",
     "title": "Wonder for Dash & Dot",
     "companyName": "Wonder Workshop",
     "id": 15,
@@ -162,7 +270,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Swift+Playgrounds&background=random&color=fff&size=256",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEllaW0qPZOe6nwkgsbCRmShCh_lXgAFsDEA&s",
     "title": "Swift Playgrounds",
     "companyName": "Apple",
     "id": 16,
@@ -180,7 +288,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=NVIDIA+Isaac&background=random&color=fff&size=256",
+    "image": "https://www.lips-hci.com/wp-content/uploads/2023/11/nvidia-isaac.webp",
     "title": "NVIDIA Isaac Controller",
     "companyName": "NVIDIA",
     "id": 17,
@@ -198,7 +306,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Raspberry+Pi&background=random&color=fff&size=256",
+    "image": "https://play-lh.googleusercontent.com/vI3hCPj1G3sg2y0TQZMFp9sTm2w62JPCgMsWdQ7UxNPxUeVEh1Cpc_fmccmmDvFEFgk=w240-h480-rw",
     "title": "Raspberry Pi Controller",
     "companyName": "Raspberry Pi Foundation",
     "id": 18,
@@ -216,7 +324,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=UR+Polyscope&background=random&color=fff&size=256",
+    "image": "https://docs.universal-robots.com/PolyScopeX_SDK_Documentation/build/SDK-v0.14/_static/logo.png",
     "title": "UR Polyscope App",
     "companyName": "Universal Robots",
     "id": 19,
@@ -228,13 +336,13 @@
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 30 },
-      { "name": "3 star", "count": 80 },
+      { "name": "80", "count": 80 },
       { "name": "4 star", "count": 150 },
       { "name": "5 star", "count": 300 }
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=ABB+RobotStudio&background=random&color=fff&size=256",
+    "image": "https://play-lh.googleusercontent.com/jPkx4qLCgeQzu3zljlSGAzdBE_Ti4fRzVgbVVu3ByWGlTL3PsdYhXI6GZhLbv6k_zz2h",
     "title": "ABB RobotStudio AR Viewer",
     "companyName": "ABB",
     "id": 20,
@@ -252,7 +360,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=KUKA+Sim&background=random&color=fff&size=256",
+    "image": "https://devicebase.net/products/1281/teaser.jpg",
     "title": "KUKA.sim Remote",
     "companyName": "KUKA",
     "id": 21,
@@ -270,7 +378,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Yaskawa+MotoSize&background=random&color=fff&size=256",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR77h1nvBnWZbN8ke4ihtyPESGieG_xL_sK0Q&s",
     "title": "Yaskawa MotoSize",
     "companyName": "Yaskawa",
     "id": 22,
@@ -288,7 +396,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=FANUC+ROBOGUIDE&background=random&color=fff&size=256",
+    "image": "http://static.vimanpro.be/wp-content/uploads/fanuc-roboguide-640x360.png",
     "title": "FANUC ROBOGUIDE",
     "companyName": "FANUC",
     "id": 23,
@@ -306,7 +414,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Spot+Controller&background=random&color=fff&size=256",
+    "image": "https://cdn.vectorstock.com/i/1000v/91/40/game-controller-app-icon-with-shadow-vector-3619140.jpg",
     "title": "Spot Controller",
     "companyName": "Boston Dynamics",
     "id": 24,
@@ -324,7 +432,7 @@
     ]
   },
   {
-    "image": "https://ui-avatars.com/api/?name=Micro+Bit&background=random&color=fff&size=256",
+    "image": "https://play-lh.googleusercontent.com/f6XUXr6ntSbg7DLde8TWArmamCPHOORtqZ4labrsw_eXPv6eu-tsQVkppYkmZre0twZ0",
     "title": "micro:bit",
     "companyName": "Micro:bit Educational Foundation",
     "id": 25,

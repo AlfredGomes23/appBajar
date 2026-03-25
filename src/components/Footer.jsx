@@ -1,5 +1,6 @@
 import logo from '../assets/images/logo.png';
-import { FaArrowRight, FaArrowCircleUp } from "react-icons/fa";
+import {  FaArrowCircleUp } from "react-icons/fa";
+import { BsArrowRightSquareFill } from "react-icons/bs";
 
     const Footer = () => {
         
@@ -39,8 +40,8 @@ import { FaArrowRight, FaArrowCircleUp } from "react-icons/fa";
                                 <label className="floating-label">
                                 <span>Your Email</span>
                                 <div className='join items-center'>
-                                    <input type="text" placeholder="Your-Email@example.com" className="input input-md border-0 outline-0 join-item w-50" />
-                                    <FaArrowRight className="join-item rounded-r-full text-2xl text-[#632EE3]"/>
+                                    <input type="text" placeholder="Your-Email@example.com" className="input input-md border rounded-l-lg outline-0 join-item w-50 h-6" />
+                                        <BsArrowRightSquareFill className="join-item rounded-r-lg text-2xl text-[#632EE3]"/>
                                 </div>
                             </label>
                             </li>
@@ -52,8 +53,8 @@ import { FaArrowRight, FaArrowCircleUp } from "react-icons/fa";
                         <p>Copyright © {new Date().getFullYear()} - All right reserved by <span className="text-xl font-bold text-[#632EE3]">AppBajar</span></p>
                     </aside>
                 </section>
-                <a href="#navbar" className="fixed bottom-8 right-5 z-50 bg-white rounded-full hover:shadow-xl animate-ping outline outline-white">
-                    <FaArrowCircleUp className="text-lg text-[#632EE3] font-bold" />
+                <a href="#navbar" className="fixed bottom-8 right-5 z-50 bg-white rounded-full hover:shadow-xl animate-pulse outline outline-white">
+                    <FaArrowCircleUp className="text-3xl text-[#632EE3] font-bold" />
                 </a>
             </footer>
         );
