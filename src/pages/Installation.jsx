@@ -6,21 +6,39 @@ import InstalledAppCard from "../components/InstalledAppCard";
 
 const Installation = ({ allAppsPromise }) => {
     const allAppsData = use(allAppsPromise);
-    const installedIds = getInstalledAppIds();
 
     const [installedApps, setInstalledApps] = useState([]);
-    useEffect(()=>{
-        setInstalledApps([...allAppsData.filter(app => installedIds.includes(String(app.id)))])
-    },[])
+    const [sortBy, setSortBy] = useState("Default");
+
+
+    useEffect(() => {
+        const installedIds = getInstalledAppIds();
+        let filtered = allAppsData.filter(app => installedIds.includes(String(app.id)));
+
+        switch (sortBy) {
+            case "Alphabetical Order":
+                filtered.sort((a, b) => a.title.localeCompare(b.title));
+                break;
+            case "Popularity":
+                filtered.sort((a, b) => b.downloads - a.downloads);
+                break;
+            case "Rating":
+                filtered.sort((a, b) => b.ratingAvg - a.ratingAvg);
+                break;
+            default:
+                filtered.sort((a, b) => a.id - b.id);
+                break;
+        };
+        setInstalledApps([...filtered]);
+
+    }, [sortBy, allAppsData]);
+
+
     const removeApp = id=>{
         uninstallApp(id)
         setInstalledApps(prevApps => prevApps.filter(app => String(app.id) !== String(id)));
     };
 
-    const handleSortBy = e => {
-        e.preventDefault();
-        console.log(e.target.value);
-    };
 
     return (
         <div className="text-center pt-20 pb-10">
@@ -32,7 +50,7 @@ const Installation = ({ allAppsPromise }) => {
                         <div className="flex flex-col-reverse md:flex-row gap-3 justify-between py-5 px-10 text-[#001931] font-semibold text-[20px]">
                             <h3 className="">{installedApps.length} Apps Found</h3>
 
-                            <select defaultValue="Default" className="select w-fit appearance-none bg-transparent border-[#627382] outline-0 text-[#627382]" onChange={handleSortBy}>
+                <select defaultValue="Default" className="select w-fit appearance-none bg-transparent border-[#627382] outline-0 text-[#627382]" onChange={(e => setSortBy(e.target.value))}>
                                 <option>Default</option>
                                 <option>Alphabetical Order</option>
                                 <option>Popularity</option>
