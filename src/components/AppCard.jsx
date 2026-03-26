@@ -1,16 +1,20 @@
 import { FaDownload } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router";
+import { formatToMillions } from "../utils/localStorage";
+
+
 
 const AppCard = ({app}) => {
     const { id, image, downloads, title, ratingAvg} = app;
-    console.log(ratingAvg);
-    const formatToMillions = n => n >= 1e6 ? (n / 1e6).toFixed(n % 1e6 ? 1 : 0) + 'M' : n >= 1e3 ? (n / 1e3).toFixed(1) + 'K' : n.toString();
+
+
+    
     return (
         <Link to={`/app/${id}`} className="card bg-base-100 w-75 md:w-86 shadow-sm hover:shadow-xl mx-auto">
             <figure className="px-4 py-4 w-full aspect-square flex items-center justify-center rounded-xl">
                     <img
-                        src={image || "https://placehold.co/400x400?text=Something+is+Fishy+:("} // Fallback for empty strings
+                        src={image || "https://placehold.co/400x400?text=Something+is+Fishy+:("}
                         alt={title}
                         className="h-full w-full object-contain p-2"
                     />

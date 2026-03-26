@@ -36,6 +36,24 @@
     ]
   },
   {
+    "image": "https://echithi.com/uploads/items/00/00/00/00/20/24/TN-1746216271.png",
+    "title": "RM22",
+    "companyName": "AlfredGomes23",
+    "id": 26,
+    "description": "A comprehensive dashboard for managing robotic modules and automated workflows with real-time tracking.",
+    "size": 12,
+    "reviews": 150000,
+    "ratingAvg": 5.0,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 144500 }
+    ]
+  },
+  {
     "image": "https://play-lh.googleusercontent.com/ZWqwZliyYxtUVlSP0fiSp2vHquwvppdE_3GMJESxDcA0gCxrq5P5i7NIwsx9rBPJnP63",
     "title": "ArduinoDroid",
     "companyName": "Anton Smirnov",
@@ -447,6 +465,42 @@
       { "name": "3 star", "count": 1200 },
       { "name": "4 star", "count": 3500 },
       { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/2kLzuCsyZ8MB-BlA6y4aekZwYAhVcHZfCWRJnuIafquCbFFLkynfFUEIXz5kQAvho0A=w240-h480-rw",
+    "title": "HexaPod Controller",
+    "companyName": "PhantomX Robotics",
+    "id": 27,
+    "description": "Advanced gait sequencer and IK solver for 6-legged hexapod robots using serial communication.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.2,
+    "downloads": 15000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/17785/17785570.png",
+    "title": "Lidar Mapping Tool",
+    "companyName": "ScanTech",
+    "id": 28,
+    "description": "Generate high-resolution 2D and 3D maps using mobile Lidar data from connected robotic sensors.",
+    "size": 110,
+    "reviews": 3400,
+    "ratingAvg": 4.5,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1500 }
     ]
   }
 ]

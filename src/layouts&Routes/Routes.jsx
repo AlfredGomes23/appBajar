@@ -19,14 +19,15 @@ const Routes = createBrowserRouter([
             { index: true, Component: Home },
             {
                 path: 'apps',
-
                 element: <Suspense fallback={<Loading />}>
                     <Apps allAppsPromise={allAppsPromise} />
                 </Suspense>
             },
             {
                 path: 'installation',
-                Component: Installation
+                element: <Suspense fallback={<Loading />}>
+                    <Installation allAppsPromise={allAppsPromise} />
+                </Suspense>
             },
             {
                 path: 'app/:id',

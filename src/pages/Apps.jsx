@@ -21,9 +21,7 @@ const Apps = ({ allAppsPromise }) => {
 
             <p className="text-base text-[#627382] mt-4 mb-8">Explore All Apps on the Market developed by us. We code for Millions</p>
 
-            {
-            apps.length ? 
-            <>
+
             <div className="flex flex-col-reverse md:flex-row gap-3 justify-between py-5 px-10 text-[#001931] font-semibold text-[20px]">
                 <h3 className="">({apps.length}) Apps Found</h3>
 
@@ -42,7 +40,9 @@ const Apps = ({ allAppsPromise }) => {
                     </svg>
                     <input type="search" onChange={e => setSearch(e.target.value)} required placeholder="Search App" />
                 </label>
-            </div>
+            </div>            {
+            apps.length ? 
+            <>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto md:px-10">
                 {
