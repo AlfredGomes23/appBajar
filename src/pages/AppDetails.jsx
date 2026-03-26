@@ -2,6 +2,7 @@ import { use, useState } from "react";
 import { FcDownload, FcLike, FcRating } from "react-icons/fc";
 import { useParams } from "react-router";
 import { formatToMillions, installApp, installed } from "../utils/localStorage";
+import RatingBar from "../components/RatingBar";
 
 
 const AppDetails = ({ allAppsPromise }) => {
@@ -44,16 +45,16 @@ const AppDetails = ({ allAppsPromise }) => {
                     <button onClick={() => {
                         installApp(id);
                         setIsInstalled(true);
-                    }} className="bg-[#00d390] btn btn-md lg:btn-lg text-white p-3.5 font-semibold rounded-sm text-[20px] md:text-center w-fit mx-auto md:mx-0 disabled:bg-[#a7d0c3]" disabled={installed(id) && true}>{installed(id)? "Installed" : "Install Now"}  ({size} MB)</button>
+                    }} className="bg-[#00d390] btn btn-md lg:btn-lg text-white p-3.5 font-semibold rounded-sm text-[20px] md:text-center w-fit mx-auto md:mx-0 disabled:bg-[#a7d0c3]" disabled={isInstalled && true}>{isInstalled ? "Installed" : "Install Now"}  ({size} MB)</button>
                 </div>
             </div>
             <div className="divider"></div>
             <div>
-                {/* <RatingBar ratings={ratings}/> */}
+                <RatingBar ratings={ratings}/>
             </div>
             <div className="divider"></div>
             <div>
-                <h2 className="font-semibold text-2xl text-[#001931]">Description</h2>
+                <h2 className="font-semibold text-2xl text-[#001931] mb-6">Description</h2>
                 <p className="text-[#627382] text-base font-normal">{description}</p>
             </div>
         </div>
