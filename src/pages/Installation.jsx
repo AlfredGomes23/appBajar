@@ -1,16 +1,21 @@
-import { use, useState } from "react";
+import { use, useEffect, useState } from "react";
 import AppCard from "../components/AppCard";
 import logo from '../assets/images/logo.png';
-import { getInstalledAppIds } from "../utils/localStorage";
+import { getInstalledAppIds, uninstallApp } from "../utils/localStorage";
 import InstalledAppCard from "../components/InstalledAppCard";
 
 const Installation = ({ allAppsPromise }) => {
     const allAppsData = use(allAppsPromise);
     const installedIds = getInstalledAppIds();
 
-    const [installedApps, setInstalledApps] = useState([...allAppsData.filter(app => installedIds.includes(app.id))]);
-
-    console.log(installedApps);
+    const [installedApps, setInstalledApps] = useState([]);
+    useEffect(()=>{
+        setInstalledApps([...allAppsData.filter(app => installedIds.includes(String(app.id)))])
+    },[])
+    const removeApp = id=>{
+        uninstallApp(id)
+        setInstalledApps(prevApps => prevApps.filter(app => String(app.id) !== String(id)));
+    };
 
     const handleSortBy = e => {
         e.preventDefault();
@@ -41,7 +46,7 @@ const Installation = ({ allAppsPromise }) => {
                         <div className="space-y-3 mx-auto md:px-10">
                             {
                                 installedApps.map(app =>
-                                    <InstalledAppCard key={app.id} app={app} />
+                                    <InstalledAppCard key={app.id} app={app} removeApp={removeApp} />
                                 )
                             }
                         </div>

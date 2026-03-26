@@ -1,9 +1,8 @@
 import React from 'react';
 import { formatToMillions, uninstallApp } from '../utils/localStorage';
 import { FaDownload, FaStar } from 'react-icons/fa6';
-import { IoTrashBin } from 'react-icons/io5';
 
-const InstalledAppCard = ({ app }) => {
+const InstalledAppCard = ({ app, removeApp }) => {
     const { id, image, title, downloads, ratingAvg, size } = app;
     return (
         <div className="list-row flex flex-col md:flex-row bg-white p-4 justify-between items-center rounded-md">
@@ -18,7 +17,7 @@ const InstalledAppCard = ({ app }) => {
                     </div>
                 </div>
             </div>
-            <button onClick={()=> uninstallApp(id)} className="btn btn-sm bg-[#00d390] text-white mt-3 md:mt-0 w-2/3 md:w-fit">Uninstall</button>
+            <button onClick={()=> removeApp(id)} className="btn btn-sm bg-[#00d390] text-white mt-3 md:mt-0 w-2/3 md:w-fit">Uninstall</button>
         </div>
     );
 };
