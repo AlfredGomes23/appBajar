@@ -13,6 +13,10 @@ AppBajar serves as a central hub for the robotics community. Whether you are loo
 * **Visual Analytics:** Interactive rating breakdowns using custom-styled charts.
 
 ---
+## 🔗 Live Links:
+
+**[Surge](http://app-bazar-alfred23.surge.sh/), [Netlify](https://app-bajar-alfred23.netlify.app/), [Vercel](https://app-bajar.vercel.app/)**
+---
 
 ## 🛠️ Technologies Used
 
