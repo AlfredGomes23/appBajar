@@ -1,5 +1,4 @@
 import { use, useEffect, useState } from "react";
-import AppCard from "../components/AppCard";
 import logo from '../assets/images/logo.png';
 import { getInstalledAppIds, uninstallApp } from "../utils/localStorage";
 import InstalledAppCard from "../components/InstalledAppCard";
@@ -10,19 +9,24 @@ const Installation = ({ allAppsPromise }) => {
     const [installedApps, setInstalledApps] = useState([]);
     const [sortBy, setSortBy] = useState("Default");
 
-
     useEffect(() => {
         const installedIds = getInstalledAppIds();
         let filtered = allAppsData.filter(app => installedIds.includes(String(app.id)));
 
         switch (sortBy) {
-            case "Alphabetical Order":
+            case "Alphabetical A-Z":
                 filtered.sort((a, b) => a.title.localeCompare(b.title));
                 break;
-            case "Popularity":
+            case "Downloaded - High":
                 filtered.sort((a, b) => b.downloads - a.downloads);
                 break;
-            case "Rating":
+            case "Downloaded - Low":
+                filtered.sort((a, b) => a.downloads - b.downloads);
+                break;
+            case "Rating - High":
+                filtered.sort((a, b) => b.ratingAvg - a.ratingAvg);
+                break;
+            case "Rating - Low":
                 filtered.sort((a, b) => b.ratingAvg - a.ratingAvg);
                 break;
             default:
@@ -34,7 +38,7 @@ const Installation = ({ allAppsPromise }) => {
     }, [sortBy, allAppsData]);
 
 
-    const removeApp = id=>{
+    const removeApp = id => {
         uninstallApp(id)
         setInstalledApps(prevApps => prevApps.filter(app => String(app.id) !== String(id)));
     };
@@ -47,16 +51,20 @@ const Installation = ({ allAppsPromise }) => {
 
             <p className="text-base text-[#627382] mt-4 mb-8">Explore All Trending Apps on the Market developed by us</p>
 
-                        <div className="flex flex-col-reverse md:flex-row gap-3 justify-between py-5 px-10 text-[#001931] font-semibold text-[20px]">
-                            <h3 className="">{installedApps.length} Apps Found</h3>
+            <div className="flex flex-col  md:flex-row gap-3 md:justify-between py-5 px-10 text-[#001931] font-semibold text-[20px]">
+                <h3 className="">{installedApps.length} Apps Found</h3>
 
-                <select defaultValue="Default" className="select w-fit appearance-none bg-transparent border-[#627382] outline-0 text-[#627382]" onChange={(e => setSortBy(e.target.value))}>
-                                <option>Default</option>
-                                <option>Alphabetical Order</option>
-                                <option>Popularity</option>
-                                <option>Rating</option>
-                            </select>
-                        </div>
+                <select defaultValue="Default"
+                    className="select w-50 bg-base-100 border-0 outline-0 text-[#627382] mx-auto md:mx-0"
+                    onChange={(e => setSortBy(e.target.value))}>
+                    <option>Default</option>
+                    <option>Alphabetical A-Z</option>
+                    <option>Downloaded - High</option>
+                    <option>Downloaded - Low</option>
+                    <option>Rating - High</option>
+                    <option>Rating - Low</option>
+                </select>
+            </div>
             {
                 installedApps.length ?
                     <>

@@ -20,7 +20,7 @@ const TrendingApps = ({ allAppsPromise }) => {
                         )
                 }
             </div>
-            <Link to='/apps' className="btn mx-auto border-0 outline-0 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base mt-6">Show All</Link>
+            <Link to='/apps#navbar' className="btn mx-auto border-0 outline-0 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base mt-6">Show All</Link>
         </div>
     );
 };
