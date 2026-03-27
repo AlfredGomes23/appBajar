@@ -34,6 +34,10 @@ const Routes = createBrowserRouter([
                 element: <Suspense fallback={<Loading />}>
                     <AppDetails allAppsPromise={allAppsPromise} />
                 </Suspense>
+            },
+            {
+                path:'*',
+                Component: NotFound
             }
         ]
     }

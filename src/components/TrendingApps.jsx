@@ -12,7 +12,7 @@ const TrendingApps = ({ allAppsPromise }) => {
 
             <p className="text-base text-[#627382] mt-4 mb-8">Explore All Trending Apps on the Market developed by us</p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-10 mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 md:px-10 mx-auto">
                 {
                     allAppsData.sort((a, b) =>
                         (b.ratingAvg * b.reviews) - (a.ratingAvg * a.reviews)).slice(0, 8).map(app =>
@@ -20,7 +20,7 @@ const TrendingApps = ({ allAppsPromise }) => {
                         )
                 }
             </div>
-            <Link to='/apps' className="btn mx-auto bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base mt-6">Show All</Link>
+            <Link to='/apps' className="btn mx-auto border-0 outline-0 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-white font-semibold text-base mt-6">Show All</Link>
         </div>
     );
 };

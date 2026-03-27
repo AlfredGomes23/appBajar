@@ -3,13 +3,19 @@ import { FcDownload, FcLike, FcRating } from "react-icons/fc";
 import { useParams } from "react-router";
 import { formatToMillions, installApp, installed } from "../utils/localStorage";
 import RatingBar from "../components/RatingBar";
+import AppNotFound from "./AppNotFound";
 
 
 const AppDetails = ({ allAppsPromise }) => {
     const { id } = useParams();
-    const allAppsData = use(allAppsPromise);
     const [isInstalled, setIsInstalled] = useState(installed(id));
-    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = allAppsData.find(app => app.id + '' === id);
+    const allAppsData = use(allAppsPromise);
+    const app = allAppsData.find(app => app.id + '' === id);
+
+    // check for valid id
+    if(!app) {return <AppNotFound/>}
+
+    const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = app;
 
 
 
