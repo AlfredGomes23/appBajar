@@ -51,7 +51,7 @@ The project leverages a modern "Frontend-First" technical stack for optimal deve
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/AlfredGomes23/AppBajar.git](https://github.com/AlfredGomes23/AppBajar.git)
+   git clone https://github.com/AlfredGomes23/AppBajar.git
 2. **Install dependencies:**
    ```bash
    npm install
